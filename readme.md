@@ -1,5 +1,5 @@
 # SAR: Spatial-Aware Regression for 3D Hand Pose and Mesh Reconstruction from a Monocular RGB Image
-
+![sar](https://github.com/zxz267/SAR/blob/main/assets/SAR.png)
 ## Introduction
 This is the PyTorch implementation of ISMAR 2021 paper "SAR: Spatial-Aware Regression for 3D Hand Pose and Mesh Reconstruction from a Monocular RGB Image".
 We provide our research code for training and testing our proposed method on FreiHAND dataset.
@@ -51,7 +51,7 @@ You need to follow directory structure of the  ` data `  as below:
 1. Modify `./config.py` to specify the model and parameters for the training.
 2. Run code `python train.py`.
 
-We provide a training log example in `./output/log/train_SAR_resnet34_Stage2_Batch64_lr0.0003_Size256_Epochs50.log`
+We provide a [training log example](https://raw.githubusercontent.com/zxz267/SAR/main/output/log/train_SAR_resnet34_Stage2_Batch64_lr0.0003_Size256_Epochs50.log).
 
 ## Evaluation
 1. Modify `./config.py`, specify the path of the trained model's weights in "checkpoint" and the the corresponding model parameters.
