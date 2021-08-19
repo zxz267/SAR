@@ -57,7 +57,7 @@ We provide a [training log example](https://raw.githubusercontent.com/zxz267/SAR
 1. Modify `./config.py`, specify the path of the trained model's weights in "checkpoint" and the the corresponding model parameters.
 2. Run code `python test.py` (if visualize mesh, `PYOPENGL_PLATFORM=osmesa python test.py
 `).
-3. Zip `./output/zip.json` and submit the prediction zip file to 
+3. Zip `./output/pred.json` and submit the prediction zip file to 
 [FreiHAND Leaderboard](https://competitions.codalab.org/competitions/21238) to obtain the evaluation scores.
 
 To reprodece our results, we provide the [pretrained model](https://drive.google.com/file/d/1j9gUbXor-FuX_YH1fptSTE1DVSjjnZRp/view?usp=sharing) 
