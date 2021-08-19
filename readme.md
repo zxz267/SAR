@@ -54,14 +54,14 @@ You need to follow directory structure of the  ` data `  as below:
 We provide a [training log example](https://raw.githubusercontent.com/zxz267/SAR/main/output/log/train_SAR_resnet34_Stage2_Batch64_lr0.0003_Size256_Epochs50.log).
 
 ## Evaluation
-1. Modify `./config.py`, specify the path of the trained model's weights in "checkpoint" and the the corresponding model parameters.
+1. Modify `./config.py` to specify the path of the trained model's weights in "checkpoint" and the the corresponding model parameters.
 2. Run code `python test.py` (if visualize mesh, `PYOPENGL_PLATFORM=osmesa python test.py
 `).
 3. Zip `./output/pred.json` and submit the prediction zip file to 
 [FreiHAND Leaderboard](https://competitions.codalab.org/competitions/21238) to obtain the evaluation scores.
 
 To reprodece our results, we provide the [pretrained model](https://drive.google.com/file/d/1j9gUbXor-FuX_YH1fptSTE1DVSjjnZRp/view?usp=sharing) 
-using ResNet-34 as backbone and two stages and the corresponding [prediction file](https://drive.google.com/file/d/16oQKiDwEKOFjn6Gq7u8AiJjvpAvCA75w/view?usp=sharing). 
+(using ResNet-34 as backbone and two stages) and the corresponding [prediction file](https://drive.google.com/file/d/16oQKiDwEKOFjn6Gq7u8AiJjvpAvCA75w/view?usp=sharing). 
 This pretrained model should generate the following results:
 
     Evaluation 3D KP results:
